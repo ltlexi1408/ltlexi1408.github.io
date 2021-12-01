@@ -15,10 +15,6 @@
     border-right: 1px solid #bbb;
 }
 
-#nav-list :last-child {
-    border-right: none;
-}
-
 #nav-list a, .dropdown-button {
     display: block;
     color: white;
@@ -26,12 +22,11 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*
 .active {
     background-color: #04aa6d;
 }
-
-/* navbar dropdown */
+*/
 #nav-list a:hover, .dropdown:hover .dropdown-button {
     background-color: red;
 }
