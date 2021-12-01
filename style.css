@@ -19,7 +19,7 @@
     border-right: none;
 }
 
-#nav-list a {
+#nav-list a, .dropdown-button {
     display: block;
     color: white;
     text-align: center;
