@@ -1,60 +1,50 @@
-/* Nav bar */
 #nav-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-#nav-list {
+  }
+  
+  #nav-list{
     float: left;
-    border-right: 1px solid #bbb;
-}
-
-#nav-list a, .dropdown-button {
-    display: block;
+  }
+  
+  #nav-list a, .dropdown-button {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-/*
-.active {
-    background-color: #04aa6d;
-}
-*/
-#nav-list a:hover, .dropdown:hover .dropdown-button {
+  }
+  
+  #nav-list a:hover, .dropdown:hover .dropdown-button {
     background-color: red;
-}
-
-#nav-list.dropdown {
+  }
+  
+  #nav-list.dropdown {
     display: inline-block;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-
-.dropdown-content a {
+  }
+  
+  .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #111;
-}
-.dropdown:hover .dropdown-content {
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
