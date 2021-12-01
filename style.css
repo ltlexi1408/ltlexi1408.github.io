@@ -27,10 +27,6 @@
     text-decoration: none;
 }
 
-#nav-list a:hover:not(.active) {
-    background-color: #111;
-}
-
 .active {
     background-color: #04aa6d;
 }
