@@ -65,7 +65,7 @@
 }
 
 .column.middle {
-  width: 50%;
+  width: 75%;
 }
 
 .row:after {
@@ -74,9 +74,8 @@
   clear: both;
 }
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .column.side, .column.middle{
     width: 100%;
   }
 }
-*/
