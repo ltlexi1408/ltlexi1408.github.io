@@ -79,3 +79,10 @@
     width: 100%;
   }
 }
+/* main */
+
+.column.middle, .column.side {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+}
