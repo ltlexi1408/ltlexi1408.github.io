@@ -1,5 +1,5 @@
 ---
 title: About
 layout: defualt
-permalink: /about/
+permalink: /about
 ---
