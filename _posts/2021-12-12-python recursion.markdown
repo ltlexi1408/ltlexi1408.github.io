@@ -2,7 +2,7 @@
 layout: post
 title:  "Python rexursion"
 date:   2021-12-12 21:24:41 +1100
-categories: python
+categories: [code ,python]
 ---
 Basic python recursion script
 
