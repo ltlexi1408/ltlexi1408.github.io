@@ -4,32 +4,31 @@ title:  "C# recursion"
 date:   2021-12-12 21:24:41 +1100
 categories: [code ,C#]
 ---
-Basic java recursion script
+Basic C# recursion script
 
-{% highlight python %}
-import java.util.Scanner;
+{% highlight csharp %}
+using System;
+     
+namespace Recursion {
+    class sub_recursion {
+        static void Main(string[]args) {
+            int num;
 
-class sub_recursion {
-    public static void main(String[]args) {
-        int num;
-        Scanner input = new Scanner(System.in);
+            Console.WriteLine("Number:");
+            num = Convert.ToInt32(Console.ReadLine());
 
-        System.out.print("Number:");
-        num = input.nextInt();
+            recursion(num + 1);
 
-        recursion(num + 1);
+            Console.WriteLine("Done");
+        }
 
-        System.out.println("Done");
-
-        input.close();
-    }
-
-    public static void recursion(int num) {
-        if(num >= 1) {
-            num -= 1;
-            System.out.println(num);
-            recursion(num);
-            System.out.println(num);
+        static void recursion(int num) {
+            if(num >= 1){
+                num -= 1;
+                Console.WriteLine(num);
+                recursion(num);
+                Console.WriteLine(num);
+            }
         }
     }
 }

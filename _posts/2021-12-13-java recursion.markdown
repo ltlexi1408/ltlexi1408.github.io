@@ -6,29 +6,30 @@ categories: [code ,java]
 ---
 Basic java recursion script
 
-{% highlight python %}
-using System;
-     
-namespace Recursion {
-    class sub_recursion {
-        static void Main(string[]args) {
-            int num;
+{% highlight java %}
+import java.util.Scanner;
 
-            Console.WriteLine("Number:");
-            num = Convert.ToInt32(Console.ReadLine());
+class sub_recursion {
+    public static void main(String[]args) {
+        int num;
+        Scanner input = new Scanner(System.in);
 
-            recursion(num + 1);
+        System.out.print("Number:");
+        num = input.nextInt();
 
-            Console.WriteLine("Done");
-        }
+        recursion(num + 1);
 
-        static void recursion(int num) {
-            if(num >= 1){
-                num -= 1;
-                Console.WriteLine(num);
-                recursion(num);
-                Console.WriteLine(num);
-            }
+        System.out.println("Done");
+
+        input.close();
+    }
+
+    public static void recursion(int num) {
+        if(num >= 1) {
+            num -= 1;
+            System.out.println(num);
+            recursion(num);
+            System.out.println(num);
         }
     }
 }
