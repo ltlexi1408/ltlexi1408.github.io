@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python rexursion"
+title:  "Python recursion"
 date:   2021-12-12 21:24:41 +1100
 categories: [code ,python]
 ---
