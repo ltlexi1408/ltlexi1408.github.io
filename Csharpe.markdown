@@ -1,7 +1,7 @@
 ---
 title: CSharpe
 layout: defualt
-permalink: /csharpe
+permalink: /csharp
 ---
 
 {% for post in site.posts %}
