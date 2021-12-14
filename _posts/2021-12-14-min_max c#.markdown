@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "java recursion"
+date:   2021-12-12 21:24:41 +1100
+categories: [code ,java]
+---
+Basic java find min and max in array script
+
+{% highlight java %}
+using System;
+
+namespace min_max {
+    class min_max {
+        static void Main(string[]args) {
+            int[] list = new int[10];
+            int min = 999;
+            int max = -999;
+            Random rand = new Random();
+
+            for(int i = 0; i < 10; i++) {
+                list[i] = rand.Next(100);
+            }
+
+            for(int i = 0; i < 10; i++) {
+                if(list[i] > max) { max = list[i]; }
+                else if(list[i] < min) { min = list[i]; }
+            }
+
+            for(int i = 0; i < 10; i++) {
+                Console.Write(list[i] + ", ");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Min: " + min);
+            Console.WriteLine("Max: " + max);
+        }
+    }
+}
+
+{% endhighlight %}
