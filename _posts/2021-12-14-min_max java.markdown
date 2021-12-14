@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "java recursion"
+title:  "java min max"
 date:   2021-12-12 21:24:41 +1100
 categories: [code ,java]
 ---

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "java recursion"
+title:  "C# min max"
 date:   2021-12-12 21:24:41 +1100
 categories: [code ,java]
 ---
-Basic java find min and max in array script
+Basic C# find min and max in array script
 
 {% highlight java %}
 using System;
